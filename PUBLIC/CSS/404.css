@@ -1,0 +1,49 @@
+h1{
+    position: relative;
+    left:920px;
+    top:-440px;
+    font-size: 100px;
+    color:rgb(48, 134, 13);
+    width: 5cm;
+}
+h2
+{
+    position: relative;
+    left:910px;
+    top:-520px;
+    font-size: 60px;
+    color:rgb(48, 134, 13);
+    width: 5cm;
+}
+p{
+    position: relative;
+    left:1030px;
+    top:-570px;
+    color:rgb(48, 134, 13);
+    font-size: larger;
+    font-weight: bolder;
+    width: 5cm;
+
+}
+i{
+    position: absolute;
+    left:320px;
+    top:130px;
+    font-size: 500px;
+    height: 400px;
+    
+}
+img{
+    position: relative;
+    left:800px;
+    top:-40px;
+    max-height: 10cm;
+    
+}
+
+body
+{
+    background-color: rgb(157, 235, 126);
+    border: 10px solid black;
+    height: 720px;
+}

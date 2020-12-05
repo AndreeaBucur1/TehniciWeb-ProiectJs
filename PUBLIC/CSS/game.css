@@ -1,0 +1,505 @@
+.form1
+{
+    position: relative;
+    left:9cm;
+    top:-23.35cm;
+    width: 10cm;
+    height: 15cm;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 207);
+    z-index: 1;
+}
+#form
+{
+  padding-top: 1cm;
+  padding-left: 1cm;
+}
+
+
+  
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px; 
+  }
+  
+  
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+  }
+  
+ 
+  
+#h
+{
+  position: absolute;
+  left:15cm;
+  top:0cm;
+  color:green;
+} 
+
+
+#message {
+    display:none;
+    background: #ffffff;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: -1350px;
+    left:750px;
+    width: 6cm;
+    z-index: 1;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+
+  #h{
+      top:0cm;
+      width:10cm;
+      left:10cm;
+  } 
+
+  #h h2
+  {
+    font-size: 17px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  body{
+    background-color: rgb(214, 176, 176)(209, 139, 139);
+  
+  }
+  
+  #box
+  {
+      border:2px solid rgb(61, 60, 60);
+      height:15cm;
+      width: 27cm;
+      position: relative;
+      /* left:16%; */
+      left:250px;
+      top:2cm;
+      background:linear-gradient(rgb(12, 12, 146),rgb(28, 101, 211),rgb(64, 64, 223) 48% ,rgb(22, 224, 22),rgb(15, 153, 15),rgb(5, 66, 5));
+      max-height: 17cm;
+  
+    }
+  
+  hr{
+      border-color:black;
+      border-width:7px;
+      margin-top: -39cm;
+      background-color: black;
+     
+  }
+  
+    
+   .c{
+      width: 30%;
+      background-color: rgb(20, 228, 27);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      float: right;
+      top:-2cm;
+      left:-1cm;
+    }
+    
+  .c:hover {
+      background-color: #3bf044;
+    }
+    
+ 
+  
+   #character img
+    {
+      transform: scale(0.3, 0.3);
+      position: relative;
+      top:-22cm;
+      left:-100px;
+      
+      
+    }  
+  
+
+  
+     #character
+    {
+        position: relative;
+        width:1px;
+
+          
+    } 
+  
+    #character1 img{
+      transform: scale(0.3,0.3);
+      position: relative;
+      top:-1270px;
+      left:-190px;
+
+    }
+  
+    #character1
+  {
+    position: relative;
+    width: 1px;
+    
+  }
+  
+  
+  
+  #cloud1
+  {
+    position: relative;
+    transform:scale(0.5,0.5);
+    left:-6cm;
+    top:-1cm;
+  }
+  
+  
+    #cloud2
+    {
+      position: relative;
+      top:0cm;
+      left:1cm;
+      width: 3cm;
+      transform: scale(0.3,0.3);
+      
+      
+    }
+    #cloud3
+    {
+      position: relative;
+      top:-7cm;
+      left:8cm;
+      transform: scale(0.5,0.5);
+      width: 3cm;
+      
+      
+    }
+    #cloud4
+    {
+      position: relative;
+      top:-10cm;
+      left:16cm;
+      transform: scale(0.6,0.4);
+      width: 3cm;
+      
+      
+    }
+    #cloud5
+    {
+      position: relative;
+      top:-20cm;
+      left:19cm;
+      transform: scale(0.6,0.6);
+      width: 3cm;
+      
+      
+    }
+    .coins
+    {
+      transform: scale(0.1,0.1);
+      position: relative;
+      left:13.4cm;
+      top:-15.3cm;
+     }
+  
+  .flori
+  {
+    height: 6cm;
+    width: 30cm;
+    position: relative;
+    transform: scale(0.3,0.3);
+    top:-10cm;
+  }
+  
+  
+  #f1
+  {
+    position:relative;
+    top:15cm;
+    left:-6cm;
+    width: 1cm;
+    
+  }
+  #f2
+  {
+    position:relative;
+    top:20cm;
+    left:10cm;
+    width: 1cm;
+    
+  }
+  #f3
+  {
+    position:relative;
+    top:10cm;
+    left:28cm;
+    width: 1cm;
+    
+  }
+  #f4
+  {
+    position:relative;
+    top:15cm;
+    left:49cm;
+    width: 1cm;
+    
+    
+  }
+  #f5
+  {
+    position:relative;
+    top:-3cm;
+    left:65cm;
+    width: 1cm;
+    
+  }
+  
+  #grass1
+  {
+    position: relative;
+    top:0cm;
+    left:-2cm;
+   
+  }
+  #grass2
+  {
+    position: relative;
+    top:0cm;
+    left:17cm;
+   
+  }
+  #grass3
+  {
+    position: relative;
+    top:-8cm;
+    left:45cm;
+   
+  }
+  #grass4
+  {
+    position: relative;
+    top:-1cm;
+    left:35cm;
+   
+  }
+  #grass5
+  {
+    position: relative;
+    top:-10cm;
+    left:60cm;
+    width: 1cm;
+   
+  }
+  
+  #obstacle1
+  {
+    position: relative;
+    top:-985px;
+    left:3200px; 
+    width: 1cm;
+    margin-left:-550px;
+    transform: scale(2.2,2.2);
+    
+    
+    
+  }
+  #obstacle1 img
+  {
+    transform: scale(1.5,1.5);
+  } 
+
+
+#deconectare
+{
+    position: relative;
+    left:-5cm;
+    top:0cm;
+}
+
+#scor
+{position: absolute;}
+
+
+
+#grey
+{
+    position: absolute;
+    left:10cm;
+    background-color:black;
+    border: 3px solid grey;
+    border-radius: 30%;
+    width: 6cm;
+    z-index: 1;
+    top:250px;
+    left:0px;
+    display: block;
+    
+}
+#white
+{
+    position: absolute;
+    background-color:white;
+    border: 3px solid grey;
+    border-radius: 30%;
+    width: 6cm;
+    z-index: 1;
+    top:300px;
+    left:0px;
+    display: block;
+    
+}
+
+#conectare 
+{
+    position: relative;
+    top:10px;
+    left:-715px;
+    width: 3cm;
+}
+#connect
+{
+    position: absolute;
+    left:70px;
+    top:200px;
+    width: 3cm;
+    z-index: 1;
+
+}
+
+#formm
+{
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: lightgrey;
+    width: 7cm;
+    height: 7cm;
+    padding-left:2cm;
+    padding-top: 1cm;
+    position: relative;
+    top:-600px;
+    left:600px;
+}
+
+#cont
+{
+    position: absolute;
+    top:-250px;
+}
+
+#pr
+{
+  position:absolute;
+  z-index: 1000;
+  top:0;
+  left:0;
+  border: 5px solid black;
+  font-size:30px;
+  width: 10cm;
+}
+
+
+#alert
+{
+    position: fixed;
+    left:580px;
+    top:280px;
+    border: 2px black solid;
+    border-radius: 5px;
+    width:400px;
+    height:150px;
+   background-color: whitesmoke;
+    animation: mymove 5s infinite;
+    display: none;
+    z-index:2000;
+  
+
+}
+
+
+#alert h2
+{
+    margin-left:120px;
+    margin-top:60px;
+}
+
+#close
+{
+    position: relative;
+    left:23px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border:2px solid black;
+    background-color: rgb(177, 206, 177);
+}
+
+#close:hover {
+    background-color: #13b61b;
+  }
+  
+
+#replay
+{
+  
+    position: relative;
+    left:70px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border:2px solid black;
+    background-color: rgb(187, 209, 187);
+}
+
+#replay:hover {
+    background-color: #169b1c;
+  }
+
+#alert2
+  {
+      border: 2px black solid;
+      border-radius: 5px;
+     background-color: whitesmoke;
+
+  }
+
+  #inact
+  {
+      border: 2px black solid;
+      border-radius: 5px;
+     background-color: whitesmoke;
+
+  }
+  
+  

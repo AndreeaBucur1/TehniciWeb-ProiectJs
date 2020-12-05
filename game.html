@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/game.css">
+    <!-- <script src="sweetalert2.all.min.js"></script> -->
+    
+</head>
+
+
+<body>
+
+    <div id='h'><h2>Bun venit!</h2></div>
+    <button  class='c' id="deconectare">Deconectare</button>
+    <button class='c' id="conectare">Conectare</button>
+    
+
+    <div id="box">
+        <div style="color:white; font-size: larger;" id=scor>Scor: 0</div>
+      <div class="clouds">
+      <div id="cloud1">
+        <img src="IMG/clouds.png" alt="img not found">
+      </div>
+      <div id="cloud2">
+        <img src="IMG/clouds.png" alt="img not found">
+      </div>
+      <div id="cloud3">
+        <img src="IMG/clouds.png" alt="img not found">
+      </div>
+      <div id="cloud4">
+        <img src="IMG/clouds.png" alt="img not found">
+      </div>
+      <div id="cloud5">
+        <img src="IMG/clouds.png" alt="img not found">
+      </div>
+    </div>
+       
+        <div id="character">
+        <img src="IMG/rabbit.png" alt="img not found">
+        </div>
+        <div id="character1">
+          <img src="IMG/dog.png" alt="img not found">
+          </div>
+         <hr>
+         <hr style="border:1px dashed; border-color: white; margin-top:-1.55%">
+         <div class="coins">
+          <img src="IMG/coins.png" alt="not found">
+        </div>
+        <div id="error"></div>
+        
+        <div class="form1">
+        <form id="form">
+          <div>
+            <label for="name">Nume</label><br>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <br>
+          <div>
+            <label for="prenume">Prenume</label><br>
+            <input id="prenume" name="prenume" type="text" required>
+          </div>
+          <br>
+          <div>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required >
+          </div>
+          <br>
+          <div>
+            <label for="pwd">Parola</label><br>
+            <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Cel putin o cifra, o litera mica,o litera mare si minim 8 caractere" required><br>
+            
+          </div>
+          <br>
+          
+          <label for="pers">Personaj</label><br>          
+          <select id="pers" name="pers" >
+            
+          <option value="p1">Rabbit</option>
+          <option value="p2">Dog</option>
+          
+          </select>
+           <br><br>
+           <p>Gen:</p>
+           <input type="radio" id="male" name="gender" value="male">
+           <label for="male"> Masculin</label><br>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Feminin</label><br><br>
+           
+           <label for="age">Varsta:<span id="demo"></span></label>
+           <input type="range" id="age" name="age" min="5" max="90" value="20"><br><br>
+        
+            <input type="checkbox" name="cb" value="cb">
+            <label for="cb">Am citit si sunt de acord cu termenii si conditiile</label>
+          <button class='c' id="submit" type="submit">Inregistrare</button>
+          
+        </form>
+        
+        </div>
+        <div id="message">
+          <h3>Password must contain the following:</h3>
+          <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+          <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+          <p id="number" class="invalid">A <b>number</b></p>
+          <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+        </div>
+        
+          <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+          </div>
+
+    </div>
+    <div id="alert">
+      <strong><h2>Oops!Ai pierdut!</h2></strong>
+      <button id="close">Inchide</button>
+      <button id="replay">Joaca</button>
+  
+  </div>
+  
+    <div class="flori">
+      <div id="f1">
+        <img src="/IMG/floare3.png" alt="img not found">
+      </div>
+      <div id="f2">
+        <img src="/IMG/floare3.png" alt="img not found">
+      </div>
+      <div id="f3">
+        <img src="/IMG/floare3.png" alt="img not found">
+      </div>
+      <div id="f4">
+        <img src="/IMG/floare3.png" alt="img not found">
+      </div>
+      <div id="f5">
+        <img src="/IMG/floare3.png" alt="img not found">
+      </div>
+      <div id="grass1">
+        <img src="IMG/grass.png" alt="not found">
+      </div>
+      <div id="grass2">
+        <img src="IMG/grass.png" alt="not found">
+      </div>
+      <div id="grass3">
+        <img src="IMG/grass.png" alt="not found">
+      </div>
+      <div id="grass4">
+        <img src="IMG/grass.png" alt="not found">
+      </div>
+      <div id="grass5">
+        <img src="IMG/grass.png" alt="not found">
+      </div>
+
+      <div id="obstacle1">
+        <img src="/IMG/obstacle12.png" alt="img not found" >
+      </div>
+    </div>
+    <button class='c' id="grey"></button>
+    <button class='c' id="white"></button>
+
+    <form id="formm">
+        <div>
+            <div>
+                <label for="name">Nume</label><br>
+                <input id="name1" name="name" type="text" required>
+              </div>
+              <br>
+              <div>
+                <label for="prenume">Prenume</label><br>
+                <input id="prenume1" name="prenume" type="text" required>
+              </div>
+            <div>
+              <label for="pwd">Parola</label><br>
+              <input type="password" id="pwd1" name="pwd" required><br>
+              
+            </div>
+            <button class='c'  id="connect">Conectare</button>
+    </form>
+
+    <p id="cont">Ai deja un cont?</p>
+    
+   <!-- <div id='pr'><p></p></div> -->
+ 
+</body>
+<script src="JS/game.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script> 
+</html>
